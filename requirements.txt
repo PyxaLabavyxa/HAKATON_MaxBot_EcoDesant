@@ -1,0 +1,7 @@
+﻿aiohttp==3.13.5
+aiosqlite==0.22.1
+environs==15.0.1
+gigachat==0.2.0
+maxapi==1.0.0
+qrcode[pil]==8.2
+rapidfuzz==3.14.5

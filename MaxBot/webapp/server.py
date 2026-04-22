@@ -372,5 +372,5 @@ async def start_webapp(host: str = '0.0.0.0', port: int = 8080):
     await runner.setup()
     site = web.TCPSite(runner, host, port)
     await site.start()
-    # print(f'Mini app started: http://{host}:{port}')
+    print(f'Mini app started: http://{host}:{port}')
     return runner
